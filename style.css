@@ -5,7 +5,7 @@
 }
 /* benar */
 .benar{
-    background-image: url('/img/banner1.png');
+    background-image: url('banner1.png');
     background-size: cover;
     background-position: center;
     height: 550px;
@@ -104,7 +104,7 @@
     margin: 100px auto;
 }
 .awlays{
-    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.7),rgba(0, 128, 0, 0.1)), url('/img/watch.png');
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.7),rgba(0, 128, 0, 0.1)), url('watch.png');
     background-size: cover;
     height: 200px;
     /* width: 60%; */
