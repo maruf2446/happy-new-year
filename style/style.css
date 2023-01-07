@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* benar */
+.benar{
+    background-image: url('/img/banner1.png');
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.benar-title{
+    text-align: center;
+    font-size: 40px;
+   
+}
+.benar-text{
+    font-size: 20px;
+    width: 500px;
+}
+.btn-primary{
+    background-color: gold;
+    border: 0;
+    color: white;
+    padding: 10px 15px;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* my future */
+.main{
+    display: flex;
+    padding: 90px 0;
+    margin: 0 auto;
+    padding-left: 10%;
+    width: auto;
+}
+.main-info{
+    padding-left: 5%;
+    margin-top: 10%;
+    width: auto;
+}
+.main img{
+    width: 500px;
+    height: 650px;
+}
+.my-futury{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-title{
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+.my-des{
+    font-size: 15px;
+    margin-right: 100px;
+}
+.fa-solid{
+    margin: 10px;
+    font-weight: bold;
+}
+
+/* my pln */
+
+.my-plans{
+    margin-top: 60px;
+    padding: 30px;
+}
+.skill-container{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    text-align: center;
+}
+.skill-title{
+    font-weight: 1200;
+    font-size: 25px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.pln-title{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 60px;
+    font-weight: 700;
+}
+.skill-des{
+    font-size: 20px;
+}
+/* awloyas */
+.awlays-sec{
+    width: 70%;
+    margin: 100px auto;
+}
+.awlays{
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.7),rgba(0, 128, 0, 0.1)), url('/img/watch.png');
+    background-size: cover;
+    height: 200px;
+    /* width: 60%; */
+    background-position: center;
+}
+.awlays-title{
+    padding: 50px 0 0 50px;
+}
+.awlays-sec button{
+    margin-left: 50px;
+    padding: 10px;
+    margin-top: 13px;
+}
+
+
+/* future */
+.contact .section-title{
+    text-align: left;
+    color: white;
+}
+.contact{
+    display: flex;
+    gap: 250px;
+    background: black;
+    padding: 10%;
+}
+.contact input{
+    margin-bottom: 24px;
+    border: 5px;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.section-description{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+    
+}
+.future-ifo{
+    width: 300px;
+    padding-left: 10%;
+}
+/* exta bunas */
+.bonus{
+    margin-top: 200px;
+    font-size: 50px;
+    text-align: center;
+}
+.poyent-box{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 60px 70px;
+}
+.box{
+    border: 1px solid;
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+    background-color: green;
+    color: white;
+}
+.box-img{
+    margin-top: 50px;
+}
+.box-title{
+    margin: 20px 0;
+}
+.box-des{
+    tab-size: 20px;
+    line-height: 1.1rem;
+    color: white;
+}
